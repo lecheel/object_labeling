@@ -27,6 +27,14 @@ cd ..
 ./ops.sh
 ```
 
+## download model
+```
+cd /opt/intel/openvino_2021/deployment_tools/open_model_zoo/tools/downloader
+python3 downloader.py --name yolo-v4-tf
+python3 converter.py --name yolo-v4-tf
+cp public/yolo-v4-tf/FP32/yolo-v4-tf.* $projdir
+```
+
 automation labeling via openvino yolo
 
 ![od_app](https://github.com/lecheel/object_labeling/blob/main/res/label.gif)
