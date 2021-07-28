@@ -1,0 +1,8 @@
+lelabel 
+
+o another simple labeling for yolov3/4 format
+o automation engine from openVino 2021.R4
+
+1. adder your classes icons to ./icons in 64x64 jpg images those icon filename following classes.txt names
+
+
