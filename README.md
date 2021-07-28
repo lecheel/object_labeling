@@ -14,7 +14,7 @@ Follow the official Get Started Guides: https://docs.openvinotoolkit.org/latest/
 ### Ubuntu:
 
 ```
-/opt/intel/openvino_2021/bin/setupvars.sh
+source /opt/intel/openvino_2021/bin/setupvars.sh
 ```
 
 ## build
