@@ -37,5 +37,8 @@ cp public/yolo-v4-tf/FP32/yolo-v4-tf.* $projdir
 ```
 
 automation labeling via openvino yolo
-
-![od_app](https://github.com/lecheel/object_labeling/blob/main/res/label.gif)
+<div align="center">
+<p>
+<img src="res/label.gif" width="500"/>
+</p>
+</div>
