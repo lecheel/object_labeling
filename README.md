@@ -1,7 +1,9 @@
 # object_labeling
 [Intel's OpenVINO Toolkit](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit.html).
-
 [OpenVino YOLOV4 tips convert yolo2openvino](https://github.com/TNTWEN/OpenVINO-YOLOV4).
+
+- [x] OpenVino 2021.4
+- [x] Yolo3/4
 
 ## Install OpenVINO Toolkit
 
