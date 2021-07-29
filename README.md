@@ -1,6 +1,8 @@
 # object_labeling
 [Intel's OpenVINO Toolkit](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit.html).
 
+[OpenVino YOLOV4 tips convert yolo2openvino](https://github.com/TNTWEN/OpenVINO-YOLOV4).
+
 ## Install OpenVINO Toolkit
 
 Go to [OpenVINO HomePage](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit.html)
@@ -27,6 +29,18 @@ cd ..
 ./ops.sh
 ```
 
-automation labeling via openvino yolo
+## download model
+```
+cd /opt/intel/openvino_2021/deployment_tools/open_model_zoo/tools/downloader
+python3 downloader.py --name person-vehicle-bike-detection-crossroad-yolov3-1020
+python3 downloader.py --name yolo-v4-tf
+python3 converter.py --name yolo-v4-tf
+cp public/yolo-v4-tf/FP32/yolo-v4-tf.* $projdir
+```
 
-![od_app](https://github.com/lecheel/object_labeling/blob/main/res/label.gif)
+automation labeling via openvino yolo
+<div align="center">
+<p>
+<img src="res/label.gif" width="500"/>
+</p>
+</div>
